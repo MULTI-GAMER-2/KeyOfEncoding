@@ -3,7 +3,7 @@ var ObfuscateCode = document.getElementById("ObfuscateCode").value;
 
 function Obfuscate(){
 
-    var EncodeString=ObfuscateCode;
+    var EncodeString=ObfuscateCode.value;
     var EncodedString = "";
     for (let i=0; i<EncodeString.length; i++){
         
