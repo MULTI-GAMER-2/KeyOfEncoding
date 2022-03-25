@@ -5,7 +5,7 @@ function Obfuscate(){
 
     var EncodeString=ObfuscateCode.value;
     var EncodedString = "";
-    for (let i=0; i<EncodeString.value.length; i++){
+    for (let i=0; i<EncodeString.length; i++){
         
         if(key[EncodeString[i]]){
         
