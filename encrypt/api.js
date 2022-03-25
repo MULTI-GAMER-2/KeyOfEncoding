@@ -20,7 +20,7 @@ function Obfuscate(){
             }
         
     }
-    document.querySelector('#EncodedCode').innerHTML = EncodedString;
+    document.querySelector('#EncodedCode').value = EncodedString;
 
 }
 
