@@ -3,9 +3,9 @@ var ObfuscateCode = document.querySelector("#ObfuscateCode");
 
 function Obfuscate(){
 
-    var EncodeString=ObfuscateCode.value;
+    var EncodeString=ObfuscateCode;
     var EncodedString = "";
-    for (let i=0; i<EncodeString.length; i++){
+    for (let i=0; i<EncodeString.value.length; i++){
         
         if(key[EncodeString[i]]){
         
